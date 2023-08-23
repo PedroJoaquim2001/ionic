@@ -1,0 +1,7 @@
+{
+  "name": "TrevoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
