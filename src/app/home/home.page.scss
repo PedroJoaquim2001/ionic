@@ -1,27 +1,48 @@
-#container {
+.headerHome{
+  background-color: var(--verde-principal);
+  display: block;
+  background-size: contain;
+}
+
+.BodyHome{
+  background-color: var(--verde-principal);
+  color: var(--verde-principal);
+}
+
+.BodyHome::part(background) {
+  background: var(--verde-principal);
+}
+
+.descricaoHome{
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.campoLogin {
+  align-items: center;
+  margin: 20% 10% 10% 10%;
+  background-color: var(--verde-principal);
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.botaoEntrar {
+  background: var(--verde-principal);
+  color: var(--branco-backgroud);
+  font-family: var(--font-principal);
+  font-weight: 200;
+  margin: 0 10%;
 }
 
-#container a {
-  text-decoration: none;
+.imagemLogo {
+  padding: 15% 25%;
+  margin: -10% -10%;
+  background-color: var(--verde-principal);
+  display: grid;  
+}
+
+.listaLogin {
+  background-color: var(--verde-principal);
+}
+
+.campoInput{
+  border-radius: 10px;
+  margin: 10% 0%;
 }

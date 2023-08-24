@@ -1,20 +1,30 @@
-<ion-header [translucent]="true">
+<ion-header class="headerHome">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+      <ion-img
+        src="https://raw.githubusercontent.com/PedroJoaquim2001/imagens/main/Trevo.png"
+        alt="logo trevo" 
+        class="imagemLogo"
+      ></ion-img>
+      
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="BodyHome">
+  <p class="descricaoHome">Bem-Vindo ao aplicativo da Trevo</p>
+  <ion-list class="listaLogin">
+    <div class="campoLogin">
+      <ion-item class="campoInput">
+        <ion-input label="" placeholder="Login"></ion-input>
+      </ion-item>
+      <ion-item class="campoInput">
+        <ion-input label="" placeholder="Senha"></ion-input>
+      </ion-item>
+    </div>
+  </ion-list>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button expand="block" class="botaoEntrar">Entrar</ion-button>
+
+
 </ion-content>
+
+
